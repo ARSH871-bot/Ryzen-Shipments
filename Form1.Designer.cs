@@ -1,4 +1,7 @@
-﻿namespace Ryzen_Shipments
+﻿using System;
+using System.Windows.Forms;
+
+namespace Ryzen_Shipments
 {
     partial class Form1
     {
@@ -456,6 +459,31 @@
 
         }
 
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void PnlMenu_Paint(object sender, PaintEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
 
         private System.Windows.Forms.Panel PnlLeft;
@@ -484,6 +512,9 @@
         private System.Windows.Forms.Button BtnSettings;
         private System.Windows.Forms.Button BtnExit;
         private System.Windows.Forms.Label label1;
+#pragma warning disable CS0649 // Field 'Form1.PnlTitle_Paint' is never assigned to, and will always have its default value null
+        private PaintEventHandler PnlTitle_Paint;
+#pragma warning restore CS0649 // Field 'Form1.PnlTitle_Paint' is never assigned to, and will always have its default value null
     }
 }
 
