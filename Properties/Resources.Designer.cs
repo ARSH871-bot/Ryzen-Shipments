@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.Drawing;
+
 namespace Ryzen_Shipments.Properties
 {
 
@@ -33,6 +35,8 @@ namespace Ryzen_Shipments.Properties
         internal Resources()
         {
         }
+
+        public static Image Profile { get; internal set; }
 
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
